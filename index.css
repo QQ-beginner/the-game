@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+.canvas-box {
+    height: 100%;
+    text-align: center;
+}
+.startbtn {
+    position: absolute;
+    cursor: pointer;
+    left: calc(50% - 100px);
+    top: 400px;
+    width: 200px;
+    height: 53px;
+    background-image: url("starting.png");
+}
+.none {
+    display: none;
+}
